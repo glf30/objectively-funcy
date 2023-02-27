@@ -47,6 +47,7 @@ console.log(person2) // -> {firstName: 'Petra', lastName: 'Solano', married: tru
 ```
 
 * `divorce` - changes the marital status to `false` and removes the `spouseName` property from both given people
+* You'll need to research a way to REMOVE the key spouseName from the given people. Simply setting the properties to undefined or null won't be sufficient
 ```
 const person1 = {firstName: 'Colin', lastName: 'Jaffe', married: true, spouseName: 'Petra Solano'}
 const person2 = {firstName: 'Petra', lastName: 'Solano', married: true, spouseName: 'Colin Jaffe'}
